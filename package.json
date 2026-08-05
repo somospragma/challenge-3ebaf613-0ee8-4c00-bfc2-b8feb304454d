@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jasmine --config=jasmine.json",
+    "sonar": "bash scripts/run-sonarqube.sh"
+  },
+  "dependencies": {
+    "@ionic/angular": "^7.0.0"
+  },
+  "devDependencies": {
+    "sonarqube-scanner": "^3.0.0",
+    "jasmine": "^4.0.0",
+    "karma": "^6.0.0"
+  }
+}
